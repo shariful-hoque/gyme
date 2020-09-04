@@ -7,42 +7,42 @@ $(function () {
         slidesToScroll: 1,
         autoplay: false,
         autoplaySpeed: 2000,
-        arrows: true,
+        arrows: false,
         dots: true,
         prevArrow: '<i class="fas fa-angle-left prv_arrow"></i>',
         nextArrow: '<i class="fas fa-angle-right nxt_arrow"></i>',
         speed: 1500,
 
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                }
-    },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                }
-    },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-    },
-            {
-                breakpoint: 576,
-                settings: {
-                    arrows: false,
-                }
-    },
-  ]
-
+//        responsive: [
+//            {
+//                breakpoint: 768,
+//                settings: {
+//                    arrows: false,
+//                    centerMode: true,
+//                    centerPadding: '40px',
+//                    slidesToShow: 3
+//                }
+//    },
+//            {
+//                breakpoint: 991,
+//                settings: {
+//                    slidesToShow: 1,
+//                }
+//    },
+//            {
+//                breakpoint: 768,
+//                settings: {
+//                    slidesToShow: 1.
+//
+//                }
+//    },
+//            {
+//                breakpoint: 576,
+//                settings: {
+//                    slidesToShow: 1,
+//                }
+//    },
+//  ]
 
     });
 
